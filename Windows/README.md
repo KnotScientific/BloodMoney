@@ -2,4 +2,4 @@
 Simple Crypto Currency Tracker  
 Sleek, Fluid UI  
 7-day historical price Chart  
-Download at wildgoat.me  
+<a href="http://www.wildgoat.me">Download Link</a>  
