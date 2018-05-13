@@ -1,0 +1,7 @@
+  .nav span {
+    display: inline-block;
+    margin-left: 10%;
+  }
+.nav contact {
+    display: inline-block;
+  }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,600,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+<link rel="stylesheet" href="./dist/css/photon.css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <title>BloodMoney</title>
+</head>
+<body>
+  <div class="window">
+    <header class="toolbar toolbar-header">
+    <div class="nav">
+                    <span id="menu" class="meen"><a href="#">&nbsp;≡&nbsp;</a></span>
+        <input class="search" type="text" id="myInput" placeholder="Search for Crypto">
+        <span id="contact"><a href="#">&nbsp;&times;&nbsp;</a></span>
+    </div>
+  </header>
+    <div class="window-content" id="core" style="-webkit-app-region: no-drag"> 
+      <div class="wrapper">
+<div id="users" class="flow-page page-1">
+  <ul class="list" id="myUL">
+  </ul>
+
+</div>
+  </div>
+<div id="mySidenav" class="sidenav">
+  <div id="Alphabetical">
+  <a href="#">&nbsp;Alphabetical</a>
+  </div>
+  <div id="highmark">
+  <a href="#">&nbsp;Highest Market Cap</a>
+  </div>
+  <div id="lowmark">
+  <a href="#">&nbsp;Lowest Market Cap</a>
+  </div>
+  <div id="topgain">
+  <a href="#">&nbsp;Top Gainers</a>
+  </div>
+  <div id="toplose">
+  <a href="#">&nbsp;Top Losers</a>
+  </div>
+  <div id="highprice">
+  <a href="#">&nbsp;Highest Price</a>
+  </div>
+    <div id="lowprice">
+  <a href="#">&nbsp;Lowest Price</a>
+  </div>
+</div>
+
+<div id="myGraph" class="graph">
+  <div id="Icon">
+  <img id="myIcon" src="./color/usd.svg" width="50px" height="50px">
+</div>
+  <div id="coinName">
+  </div>
+
+    <div id="coininit">
+  </div>
+
+  <div id="coinprice">
+  </div>
+      <script src="./node_modules/chart.js/dist/Chart.js"></script>
+      <div id="chrt">
+<canvas id="myChart" height="100px"></canvas>
+</div>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d');
+</script>
+
+  <div>
+  <span id="prcbtc">Price BTC:</span>
+  <span id="coinpricebtc"></span>
+  </div>
+
+  <div>
+    <span id="vol">24h Volume:</span>
+<span id="volumeusd"></span>
+  </div>
+
+  <div>
+    <span id="market">Market Cap:</span>
+<span id="market_cap_usd">
+  </span>
+  </div>
+
+  <div>
+    <span id="avail">Available Supply:</span>
+<span id="available_supply">
+  </span>
+  </div>
+
+  <div>
+     <span id="ttl">Total Supply:</span>
+ <span id="total_supply">
+  </span>
+  </div>
+
+  <div>
+   <span id="max">Max Supply:</span>
+ <span id="max_supply">
+  </span>
+    </div>
+
+
+  <div id="last_updated">
+  </div>
+
+</div>
+    </div>
+  </div>  
+      <script src="./node_modules/list.js/dist/list.min.js"></script>
+      <script src="./node_modules/chart.js/dist/Chart.js"></script>
+            <script src="./node_modules/moment/moment.js"></script>
+            <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+  <script src="app.js"></script>
+</body>
+
+</html>
