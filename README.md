@@ -20,3 +20,7 @@ An elegant, neat, feature-packed Cryptocurrency tracker of the top 200 currencie
 
 ## Filter using the search bar
 ![Alt Text](bsearch.gif)
+
+## Sort out the cryptos
+![Alt Text](bnavbar.gif)
+
