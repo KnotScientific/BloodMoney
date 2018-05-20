@@ -2,8 +2,9 @@
 ## Can be downloaded here : [Download](http://www.wildgoat.me/bloodmoney)
 
 ## About
-An elegant, neat, feature-packed Cryptocurrency tracker of the top 200 currencies.
-![Alt Text](bmoney.gif)
+### An elegant, neat, feature-packed Cryptocurrency tracker of the top 200 currencies.
+
+## ![Alt Text](bmoney.gif)
 
 ## Built With
 * Javascript
