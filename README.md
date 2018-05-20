@@ -17,3 +17,6 @@ An elegant, neat, feature-packed Cryptocurrency tracker of the top 200 currencie
 * Market cap
 * Volume
 * Supply (Available, Total, Max)
+
+## Filter using the search bar
+![Alt Text](bsearch.gif)
