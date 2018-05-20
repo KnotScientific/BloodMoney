@@ -3,6 +3,7 @@
 
 ## About
 An elegant, neat, feature-packed Cryptocurrency tracker of the top 200 currencies.
+![Alt Text](bmoney.gif)
 
 ## Built With
 * Javascript
