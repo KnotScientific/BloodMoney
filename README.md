@@ -11,7 +11,9 @@ An elegant, neat, feature-packed Cryptocurrency tracker of the top 200 currencie
 * Electron Framework
 
 ## Contains information about the currency's:
-* Javascript
-* HTML
-* CSS
-* Electron Framework
+* Logo, Initial
+* Price in USD and BTC
+* Performance (24hr and 7-day)
+* Market cap
+* Volume
+* Supply (Available, Total, Max)
